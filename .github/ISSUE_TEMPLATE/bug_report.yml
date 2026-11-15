@@ -1,0 +1,114 @@
+name: Bug report
+description: Something in ProphOS does not work as it should.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this.
+
+        **Please do not attach or paste a programme, XER file or screenshot that contains confidential
+        information** (real project names, client names, activity names, costs or file paths). This
+        issue is public. If we need a file to reproduce the problem, we will ask; a small made-up
+        example is best.
+
+        A security problem? Do not report it here: email support@oversitecp.com with "Security" in the
+        subject.
+  - type: input
+    id: version
+    attributes:
+      label: ProphOS version
+      description: From Administer › About.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Installed from
+      options:
+        - Microsoft Store
+        - Signed download (ProphOS-Setup-<version>.exe)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Settings › System › About (for example "Windows 11 24H2").
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in ProphOS
+      options:
+        - Setup
+        - Plan
+        - Resource & Cost
+        - Control
+        - Analyse
+        - Insights
+        - Layouts
+        - Report (print, dashboards, POAP, change report)
+        - Integrate (opening, importing, saving, XER export)
+        - Administer (accounts, updates, P6 compliance)
+        - Navigator and workspaces
+        - Working together
+        - Branches and micro plans
+        - Installing, starting or updating
+        - Signing in or the trial
+        - Somewhere else
+    validations:
+      required: true
+  - type: dropdown
+    id: workspace
+    attributes:
+      label: Where the programme was
+      options:
+        - This computer
+        - Network drive
+        - Microsoft 365
+        - Quick look (no workspace)
+        - Not relevant
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, step by step.
+      placeholder: |
+        1. Open a programme with ...
+        2. Select ...
+        3. Press ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Include any message word for word.
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: How often it happens, the size of the programme (number of activities), screenshots with no confidential information.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have searched the existing issues.
+          required: true
+        - label: I have not attached or pasted any confidential programme data.
+          required: true

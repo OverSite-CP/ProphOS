@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User guide
+    url: https://github.com/OverSite-CP/ProphOS/wiki
+    about: How to do things in ProphOS, tab by tab.
+  - name: Troubleshooting and FAQ
+    url: https://github.com/OverSite-CP/ProphOS/wiki/Troubleshooting-and-FAQ
+    about: Common problems and their answers.
+  - name: Email support
+    url: mailto:support@oversitecp.com
+    about: Account, licence and billing questions, or anything you would rather not post in public.
+  - name: Report a security problem
+    url: https://github.com/OverSite-CP/ProphOS/security/policy
+    about: Please report security problems privately, never as a public issue.

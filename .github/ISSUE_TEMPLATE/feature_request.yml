@@ -1,0 +1,54 @@
+name: Feature request
+description: An idea that would make ProphOS better for you.
+title: "[Idea]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you are trying to get done. The problem matters more to us than a particular
+        solution. Please leave out any confidential project information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task, and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you imagine it working. If P6 or another tool does it, say how.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Setup
+        - Plan
+        - Resource & Cost
+        - Control
+        - Analyse
+        - Insights
+        - Layouts
+        - Report
+        - Integrate and P6 files
+        - Administer and accounts
+        - Working together, branches, micro plans
+        - Something new
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How much does it matter to you?
+      options:
+        - Nice to have
+        - It would save me real time
+        - I cannot use ProphOS for my work without it
+  - type: input
+    id: version
+    attributes:
+      label: ProphOS version
+      description: From Administer › About (optional).

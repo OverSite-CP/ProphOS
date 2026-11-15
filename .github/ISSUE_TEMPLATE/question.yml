@@ -1,0 +1,26 @@
+name: Question
+description: Ask how to do something in ProphOS.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the [user guide](https://github.com/OverSite-CP/ProphOS/wiki) first; it may already answer this.
+        Leave out any confidential project information. For account or billing questions, email
+        support@oversitecp.com instead: they may need personal details.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you have tried
+  - type: input
+    id: version
+    attributes:
+      label: ProphOS version
+      description: From Administer › About (optional).
