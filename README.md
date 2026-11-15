@@ -1,9 +1,9 @@
 # ProphOS
 
-**Construction planning for Primavera P6 programmes, on your own Windows PC.**
+**Construction planning for XER programmes, on your own Windows PC.**
 
-ProphOS opens P6 XER files, reschedules them with its own engine, and gives planners the tools
-to edit, review, compare and report on a programme without a P6 database. Your programmes stay
+ProphOS opens XER files, reschedules them with its own engine, and gives planners the tools
+to edit, review, compare and report on a programme without a separate scheduling database. Your programmes stay
 on your computer, your network drive or your own Microsoft 365.
 
 ProphOS is made by [OVERSITE PTE. LTD.](https://oversitecp.com), Singapore.
@@ -26,9 +26,9 @@ not published here.
 
 ## Key features
 
-- **Opens P6 XER files** and schedules them with ProphOS's own engine, built to give P6's dates.
+- **Opens XER files** and schedules them with ProphOS's own engine, a critical path scheduling engine (F9) for XER programmes.
   A file of several projects is sorted into main programmes and their baselines for you.
-- **Saves back to XER** for P6, with resources, assignments, expenses, activity codes and user
+- **Saves back to XER**, with resources, assignments, expenses, activity codes and user
   fields, and optionally one baseline.
 - **Edit the programme** in a table and Gantt chart: add, delete, link (Ctrl+L), copy and paste,
   fill down, renumber, dissolve, build the WBS, update progress and reschedule (F9). Every change
@@ -118,7 +118,6 @@ Please never attach a programme that holds confidential information to a public 
 
 ProphOS is proprietary software, © OVERSITE PTE. LTD.. The documentation in this repository and its
 wiki is licensed under [CC BY 4.0](LICENSE.md); the application is not.
-Primavera and P6 are trademarks of Oracle. Microsoft, Windows and Microsoft 365 are trademarks of
-the Microsoft group of companies. ProphOS is not affiliated with or endorsed by Oracle.
+Microsoft, Windows and Microsoft 365 are trademarks of the Microsoft group of companies.
 
 OVERSITE PTE. LTD. · UEN 202551198K · 10 Sims Drive, #18-32, Singapore 387390

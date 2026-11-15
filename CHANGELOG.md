@@ -16,7 +16,7 @@ follows.
 
 ### One app, and a free trial
 
-- **One app.** Anyone can open, view, print and export P6 programmes without an account.
+- **One app.** Anyone can open, view, print and export XER programmes without an account.
   Sign in with a Microsoft account to edit; what you can do is set by your plan.
 - **Launch trial.** Sign in during the first three months after launch and get six months of
   ProphOS Team free. A card says **Your Team trial has started** and when it ends. No card is
@@ -30,7 +30,7 @@ follows.
 - **Create programme.** Start a new programme in a project, blank or from another programme as a
   template (its calendars, codes, user fields, resources with rates, options and currency, as you
   tick them; never its activities). A step-by-step window asks for the Project ID, title, dates,
-  calendars, codes and a starter WBS, then shows an **export readiness** check of what P6 needs
+  calendars, codes and a starter WBS, then shows an **export readiness** check of what an XER file needs
   before the programme is made. It is in **Setup**, **Integrate**, the start screen and the
   right-click menu of a project.
 - **WBS editing in the grid.** Add a child or sibling, rename, indent, outdent, move up or down,
@@ -43,7 +43,7 @@ follows.
   **Plan › Logic › Link**. Activities are linked in the order you clicked them, finish-to-start;
   links that would make a loop, or that touch a WBS row, are refused with a reason.
 
-### Open and save P6 files
+### Open and save XER files
 
 - **Multi-project XER import.** A file holding several projects opens on an import screen that
   sorts them into main programmes and their baselines. You confirm each one's role.
@@ -55,7 +55,7 @@ follows.
 - **Clean on export.** The same for the file you send: **Full**, **Send to client**, **No costs**,
   **Logic only** or **Anonymise**. The programme keeps everything; only the file is cleaned.
 - **Baseline in an XER export.** **Save as XER…** can include one of the programme's baselines
-  (off by default), written as a project of its own for you to make a baseline in P6.
+  (off by default), written as a project of its own for you to make a baseline.
 - **XER export with nothing else installed.** ProphOS writes XER itself, with no Java.
 
 ### Tables and the Activity panel
@@ -63,8 +63,8 @@ follows.
 - **Export table to Excel.** Send the activity table, the rows you chose, or the rows shown after
   your filters, to a workbook with the table's columns, real Excel dates and the WBS as Excel
   groups. A preview and a format window set the title, colours, columns and page.
-- **P6's dates in the relationship tables.** Predecessors and successors can show early start
-  and finish, late start and finish, and actual start and finish, as P6 does.
+- **All the dates in the relationship tables.** Predecessors and successors can show early start
+  and finish, late start and finish, and actual start and finish.
 - **Activity panel tables.** Relationships and resources are tables like the main grid: choose the
   columns, type a lag or units in the cell, change a type or resource from a drop-down, and show
   predecessors and successors stacked or side by side.
@@ -165,7 +165,7 @@ follows.
   tracker, earned value for reporting, with templates.
 - **POAP** (plan on a page): swimlanes and items tied to activities, frozen versions, and export.
 - **Schedule health:** the DCMA 14-point check, with a project's own thresholds.
-- **P6 compliance** (Administer): ProphOS's dates against the dates P6 stored in the file.
+- **XER compliance** (Administer): ProphOS's dates against the dates stored in the file.
 - **Report an issue** (Administer) and **Updates…** (check automatically, or Check now).
 - **Unsaved changes** are asked about before closing, quitting or signing out; **Ctrl+W** closes
   the programme.
@@ -173,8 +173,8 @@ follows.
 
 ### September and early October 2026 (before the pilot)
 
-- The scheduling engine: forward and backward passes, P6's scheduling options, calendars,
+- The scheduling engine: forward and backward passes, the XER schedule options, calendars,
   constraints, level-of-effort and WBS-summary activities, progress and out-of-sequence work,
-  measured against P6's own dates on real programmes until it agreed.
+  measured against the dates stored in real XER programmes until it agreed.
 - The first read-only viewer: open an XER, see it scheduled, the Activity details panel, and
-  trace to the cause of any difference from P6.
+  trace to the cause of any difference from the stored dates.

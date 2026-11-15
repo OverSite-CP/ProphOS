@@ -19,7 +19,7 @@ body:
     id: idea
     attributes:
       label: What would help
-      description: How you imagine it working. If P6 or another tool does it, say how.
+      description: How you imagine it working. If another tool does it, say how.
     validations:
       required: true
   - type: dropdown
@@ -35,7 +35,7 @@ body:
         - Insights
         - Layouts
         - Report
-        - Integrate and P6 files
+        - Integrate and XER files
         - Administer and accounts
         - Working together, branches, micro plans
         - Something new
