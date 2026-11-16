@@ -9,10 +9,32 @@ those are summarised below by month.
 
 ---
 
-## 1.0.0 (December 2026)
+## 1.0.1 (November 2026)
 
-The first public release, on the Microsoft Store. A signed installer for direct download
-follows.
+The first update for the early-access group, and the version going to the Microsoft Store.
+
+- **Expand and collapse the WBS from the keyboard and the right-click menu.** **Numpad +** and
+  **Numpad −** (or **Alt+Shift+Right** and **Alt+Shift+Left**) open and fold the selected WBS
+  node; **Ctrl+Numpad +** and **Ctrl+Numpad −** (or **Ctrl+Shift+Down** and **Ctrl+Shift+Up**)
+  open or fold the whole WBS. The right-click menu on a WBS row also opens or folds everything
+  beneath it. See Keyboard shortcuts.
+- **Zoom the Gantt by scrolling over its date header**: up zooms in towards days, down zooms out
+  towards years, and the date under the pointer stays put. **Ctrl+scroll** over the bars does
+  the same.
+- **A programme opens centred on its data date**, with a year either side, instead of fitting
+  the whole programme. **Fit to plan** is unchanged.
+- **Find**: the text you type is now visible; **Enter** and **Shift+Enter** go to the next and
+  previous match, a line shows "2 of 9" or that nothing matches, and **Escape** clears it. A
+  match inside a folded WBS node opens the node.
+- **XER version**: Save as XER can write a chosen version in the file's header (23.12 down to
+  8.4; 20.12 by default, unchanged from 1.0.0). Only the header changes.
+- **Wording**: files are described as XER throughout, and **XER compliance** is the new name
+  of the dates comparison under Administer.
+
+## 1.0.0 (November 2026)
+
+The first release: a signed early-access installer on 16 November 2026, ahead of the
+Microsoft Store.
 
 ### One app, and a free trial
 
